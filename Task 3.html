@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 3 | Advanced Styling & JavaScript</title>
+  <link rel="stylesheet" href="Task 3.css">
+</head>
+<body>
+  <header>
+    <h2>ApexPlanet Internship – Task 3</h2>
+    <nav>
+      <a href="#quiz" class="active">Quiz App</a>
+      <a href="#api">Joke Generator</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Quiz Card -->
+    <section id="quiz" class="card">
+      <h3>Interactive Quiz App</h3>
+      <div id="quiz-box">
+        <p id="question">Loading question...</p>
+        <div id="options"></div>
+        <button id="nextBtn">Next Question</button>
+        <p id="score"></p>
+      </div>
+    </section>
+
+    <!-- API Card -->
+    <section id="api" class="card">
+      <h3>Random Joke Generator (API)</h3>
+      <p id="jokeText">Click the button to get a joke 😄</p>
+      <button id="jokeBtn">Tell me a Joke</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 ApexPlanet Internship | Advanced Styling & JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
